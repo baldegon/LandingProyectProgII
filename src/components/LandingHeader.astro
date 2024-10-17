@@ -1,6 +1,6 @@
-<header id="landing-header" class="py-3 px-10 flex items-center fixed top-0 w-full justify-between z-40 text-white">
+<header id="landing-header" class="py-3 px-10 flex items-center fixed top-0 w-full justify-between z-40 text-white bg-white-/20 backdrop-blur-sm">
     <div class="flex flex-grow basis-0">
-        <img src="/logoheader.png" alt="martini">
+        <img src="/logoheader.png" alt="BrandLogo">
     </div>
     
     <nav>
@@ -14,7 +14,7 @@
     </nav>
 
     <nav class="flex flex-grow basis-0 justify-end">
-        <ul class="flex text-sm [&>li>a]:text-current [&>li>a]:font-bold [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2">
+        <ul class="flex text-sm [&>li>a]:text-current text-border-red [&>li>a]:font-bold [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2">
             <li><a href="#">Support</a></li>
             <li><a href="#">Region</a></li>
             <li><a href="#">Account</a></li>
@@ -64,7 +64,7 @@
     const observerOptions = {
         root: null,
         rootMargin: '0px',
-        threshold: 0.90
+        threshold: 1
     }
 
     const observer = new IntersectionObserver(entries =>{

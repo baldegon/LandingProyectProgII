@@ -1,7 +1,12 @@
+---
+import CocktailCard from '../components/CocktailCard.astro';
+import ViewTransitions from 'astro/components/ViewTransitions.astro';
+---
+
 <section class="landing-section bg-black h-screen w-screen text-center overflow-hidden relative" data-header-color="white">
     <div class="z-30 relative h-full flex flex-col">
         <header>
-            <h2 class="text-white pt-40 text-5xl font-medium">
+            <h2 class="text-white pt-40 text-6xl font-medium">
                 Tauros Cocktails
             </h2>
             <p class="text-white text-base">
@@ -11,12 +16,12 @@
         
         <footer class="flex flex-col flex-grow justify-end pb-20">
             <div>
-                <a class="border-[3px] border-white bg-white/5 backdrop-blur-sm text-sm rounded font-medium text-white px-12 py-2 inline-block hover:bg-white hover:text-black transition-colors" href="#">Pedi Tu Carta</a>
+                <a class="border-[3px] border-white bg-white/5 backdrop-blur-sm text-sm rounded font-medium text-white px-12 py-2 inline-block hover:bg-white hover:text-black transition-colors" href="/CocktailCard">Pedi Tu Carta</a>
             </div>
         </footer>
     </div>
         
     <div class="absolute top-0 bottom-0 h-cover w-cover">
-        <img class="object-cover object-cover" src="/b.jpeg" alt="coctel1">
+        <img class="h-screen w-screen object-cover object-cover" src="/j.jpeg" alt="BarWall">
     </div>
 </section>
